@@ -9,7 +9,7 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function(req, res) {
-
+        //need to make a var that reads the post 
 
     });
 
