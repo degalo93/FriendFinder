@@ -10,18 +10,13 @@ module.exports = function(app) {
 
     app.post("/api/friends", function(req, res) {
 
-        var newFriend = req.body.name;
 
-        // Using a RegEx Pattern to remove spaces from newCharacter
-        // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
-        newcharacter.routeName = newcharacter.name.replace(/\s+/g, "").toLowerCase();
-
-        console.log(newcharacter);
-
-        characters.push(newcharacter);
-
-        res.json(newcharacter);
     });
 
+    // Start our server so that it can begin listening to client requests.
+    app.listen(PORT, function() {
+        // Log (server-side) when our server has started
+        console.log("Server listening on: http://localhost:" + PORT);
+    });
 
 }
