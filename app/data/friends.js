@@ -1,7 +1,7 @@
-var dataFriend = [{
-        "name": "wolf",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores": [
+var friend = [{
+        name: "wolf",
+        photo: "https://www.fillmurray.com/640/360",
+        scores: [
             5,
             5,
             4,
@@ -15,51 +15,52 @@ var dataFriend = [{
         ]
     },
     {
-        "name": "owl",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores": [
+        name: "owl",
+        photo: "https://www.fillmurray.com/640/360",
+        scores: [
             5,
             1,
-            4,
-            4,
+            5,
+            5,
             5,
             1,
-            2,
+            1,
             5,
             4,
-            1
+            5
         ]
     },
     {
-        "name": "cat",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores": [
+        name: "cat",
+        photo: "https://www.fillmurray.com/640/360",
+        scores: [
             5,
-            1,
-            4,
-            4,
-            5,
-            1,
+            3,
             2,
             5,
+            2,
             4,
-            1
+            3,
+            2,
+            3,
+            4
         ]
     },
     {
-        "name": "rat",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores": [
-            5,
-            1,
+        name: "rat",
+        photo: "https://www.fillmurray.com/640/360",
+        scores: [
+            2,
             4,
-            4,
-            5,
             1,
             2,
             5,
             4,
+            5,
+            2,
+            1,
             1
         ]
     }
 ];
+module.exports = friend;
