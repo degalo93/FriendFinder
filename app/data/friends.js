@@ -1,4 +1,4 @@
-var friend = [{
+var friends = [{
         name: "wolf",
         photo: "https://www.fillmurray.com/640/360",
         scores: [
@@ -63,4 +63,4 @@ var friend = [{
         ]
     }
 ];
-module.exports = friend;
+module.exports = friends;
