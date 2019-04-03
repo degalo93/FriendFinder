@@ -8,7 +8,11 @@ module.exports = function(app) {
 
     app.post("/api/friends", function(req, res) {
         // Parse new friend input to get integers (AJAX post seemed to make the numbers strings)
-        var newFriend = req.body
+        var newFriend = {
+            name: "",
+            photo: "",
+            scores = []
+        };
         var scoresArr = [];
         for (var i = 0; i < req.body.scores.length; i++) {
             scoresArr.push(parseInt(req.body.scores[i]))
